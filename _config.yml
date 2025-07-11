@@ -1,8 +1,8 @@
 # _config.yml
 title: SpeedBoost AI
-description: "AI-powered performance audits for e-commerce stores. Increase your sales with faster loading times and better SEO."
-url: "https://yourusername.github.io"
-baseurl: ""
+description: "AI-powered performance audits for e-commerce stores"
+url: "https://speedboostco.github.io"
+baseurl: "/speedboost-seo-ai"
 
 # Theme
 remote_theme: raviriley/agency-jekyll-theme
