@@ -1,0 +1,31 @@
+- title: "Core Web Vitals Analysis"
+  desc: "Measure and optimize the metrics Google uses to rank your site: LCP, FID, and CLS"
+  icon: fas fa-tachometer-alt
+
+- title: "Mobile Performance Audit" 
+  desc: "Ensure your store loads fast on smartphones where 60% of e-commerce traffic happens"
+  icon: fas fa-mobile-alt
+
+- title: "Image Optimization Review"
+  desc: "Identify oversized images and recommend modern formats to reduce load times by 40%+"
+  icon: fas fa-image
+
+- title: "Code Efficiency Analysis"
+  desc: "Find unused CSS/JS, render-blocking resources, and optimization opportunities"
+  icon: fas fa-code
+
+- title: "CDN & Caching Setup"
+  desc: "Optimize your content delivery and caching strategy for global performance"
+  icon: fas fa-globe
+
+- title: "Third-party Scripts Audit"
+  desc: "Analyze impact of tracking pixels, chat widgets, and apps on your store speed"
+  icon: fas fa-puzzle-piece
+
+- title: "Server Response Optimization"
+  desc: "Database queries, hosting performance, and backend optimization recommendations"
+  icon: fas fa-server
+
+- title: "Conversion Impact Analysis"
+  desc: "Estimate revenue lift from each optimization with data-driven projections"
+  icon: fas fa-chart-line

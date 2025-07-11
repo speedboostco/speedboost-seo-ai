@@ -1,12 +1,136 @@
-# Site settings
-title: "My Serif-Powered Site"
-description: "Slick business site with Jekyll Serif"
-
-# Production URLs
-url: "https://speedboostco.github.io"    # your GitHub Pages domain
-baseurl: "/speedboost-seo-ai"            # the repo name, leading slash, no trailing slash
+# _config.yml
+title: SpeedBoost AI
+description: "AI-powered performance audits for e-commerce stores. Increase your sales with faster loading times and better SEO."
+url: "https://yourusername.github.io"
+baseurl: ""
 
 # Theme
-remote_theme: zerostaticthemes/jekyll-serif-theme
+remote_theme: raviriley/agency-jekyll-theme
+
+# Plugins
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site Author
+author:
+  name: "SpeedBoost AI"
+  email: "hello@speedboost-ai.com"
+
+# Company info
+company: "SpeedBoost AI"
+phone: "+1 (555) 123-4567"
+
+# Header settings
+header:
+  title: "Boost Your E-commerce Performance"
+  subtitle: "AI-powered audits that identify why your store is slow and exactly how to fix it"
+  buttonlink: "#contact"
+  buttontext: "Get Free Speed Score"
+
+# Navigation
+nav:
+  - title: "Services"
+    url: "#services"
+  - title: "How It Works"
+    url: "#timeline"
+  - title: "Pricing"
+    url: "#pricing"
+  - title: "Results"
+    url: "#portfolio"
+  - title: "Contact"
+    url: "#contact"
+
+# Services section
+services:
+  title: "What We Analyze"
+  subtitle: "Comprehensive performance audit powered by AI"
+  section: services
+  list:
+    - title: "Page Speed Analysis"
+      desc: "Deep dive into loading times, Core Web Vitals, and performance bottlenecks"
+      icon: fas fa-tachometer-alt
+    - title: "SEO Technical Audit"
+      desc: "Identify technical SEO issues that hurt your search rankings"
+      icon: fas fa-search
+    - title: "Mobile Performance"
+      desc: "Ensure your store performs perfectly on all mobile devices"
+      icon: fas fa-mobile-alt
+    - title: "AI-Powered Insights"
+      desc: "Smart recommendations prioritized by potential revenue impact"
+      icon: fas fa-brain
+
+# Timeline section (How it works)
+timeline:
+  title: "How It Works"
+  subtitle: "Get actionable insights in 24 hours"
+  section: timeline
+  events:
+    - title: "1. Submit Your Store URL"
+      year: "Step 1"
+      desc: "Enter your e-commerce store URL and select your audit package"
+      image: assets/img/timeline/1.jpg
+      alt: Submit URL
+    - title: "2. AI Analysis"
+      year: "Step 2" 
+      desc: "Our AI analyzes 50+ performance metrics and compares with industry benchmarks"
+      image: assets/img/timeline/2.jpg
+      alt: AI Analysis
+    - title: "3. Prioritized Report"
+      year: "Step 3"
+      desc: "Receive detailed PDF report with prioritized action items and ROI estimates"
+      image: assets/img/timeline/3.jpg
+      alt: Report Delivery
+    - title: "4. Implementation Support"
+      year: "Step 4"
+      desc: "Optional implementation support to help you apply the recommendations"
+      image: assets/img/timeline/4.jpg
+      alt: Implementation
+
+# Portfolio section (Results/Case Studies)
+portfolio:
+  title: "Success Stories"
+  subtitle: "Real results from real stores"
+  section: portfolio
+
+# Pricing section
+pricing:
+  title: "Simple, Transparent Pricing"
+  subtitle: "Choose the audit level that fits your needs"
+  section: pricing
+
+# Contact section
+contact:
+  title: "Get Your Free Speed Score"
+  subtitle: "See how your store performs and get 3 quick wins"
+  section: contact
+
+# Footer
+footer:
+  legal: "Privacy Policy"
+  social:
+    - url: https://twitter.com/speedboost_ai
+      icon: "fab fa-twitter"
+    - url: https://linkedin.com/company/speedboost-ai
+      icon: "fab fa-linkedin-in"
+    - url: https://github.com/speedboost-ai
+      icon: "fab fa-github"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# SEO settings
+lang: en_US
+locale: en_US
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

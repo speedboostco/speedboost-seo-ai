@@ -1,0 +1,45 @@
+- name: "Express Audit"
+  price: "$39"
+  duration: "48-hour delivery"
+  description: "Perfect for getting quick wins and understanding your current performance"
+  features:
+    - "Core Web Vitals analysis"
+    - "5 prioritized recommendations"
+    - "Performance score breakdown"
+    - "Basic mobile audit"
+    - "PDF report"
+    - "Email support"
+  cta: "Get Express Audit"
+  popular: false
+
+- name: "Complete Audit"
+  price: "$89"
+  duration: "24-hour delivery"
+  description: "Comprehensive analysis with detailed action plan for serious optimization"
+  features:
+    - "All Express features"
+    - "20+ detailed recommendations"
+    - "Before/after projections"
+    - "Competitor comparison"
+    - "Technical SEO analysis"
+    - "Implementation timeline"
+    - "Video walkthrough"
+    - "1-week email support"
+  cta: "Get Complete Audit"
+  popular: true
+
+- name: "Premium + Implementation"
+  price: "$199"
+  duration: "24-hour delivery + support"
+  description: "Full audit plus hands-on help implementing the most critical improvements"
+  features:
+    - "All Complete features"
+    - "Custom performance strategy"
+    - "ROI impact analysis"
+    - "1-hour consultation call"
+    - "Implementation assistance"
+    - "Follow-up audit (30 days)"
+    - "Priority support (1 month)"
+    - "Conversion tracking setup"
+  cta: "Get Premium Package"
+  popular: false
