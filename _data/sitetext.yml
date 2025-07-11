@@ -1,0 +1,30 @@
+header:
+  title: "Boost Your E-commerce Performance"
+  text: "AI-powered audits that identify why your store is slow"
+  button: "Get Free Speed Score"
+  buttonlink: "#contact"
+
+services:
+  title: "What We Analyze"
+  text: "Comprehensive performance audit powered by AI"
+  section: services
+  list:
+    - title: "Page Speed Analysis"
+      desc: "Deep dive into loading times and Core Web Vitals"
+      icon: fas fa-tachometer-alt
+    - title: "SEO Technical Audit"  
+      desc: "Identify technical SEO issues hurting rankings"
+      icon: fas fa-search
+    - title: "Mobile Performance"
+      desc: "Ensure perfect performance on all devices"
+      icon: fas fa-mobile-alt
+
+portfolio:
+  title: "Success Stories"
+  text: "Real results from real stores"
+  section: portfolio
+
+contact:
+  title: "Get Your Free Speed Score"
+  text: "See how your store performs"
+  section: contact
