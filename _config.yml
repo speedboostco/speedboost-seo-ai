@@ -1,0 +1,5 @@
+title: "My Serif-Powered Site"
+description: "Slick business site with Jekyll Serif"
+remote_theme: zerostaticthemes/jekyll-serif-theme    # pulls from https://github.com/zerostaticthemes/jekyll-serif-theme :contentReference[oaicite:1]{index=1}
+plugins:
+  - jekyll-remote-theme
