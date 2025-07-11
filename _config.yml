@@ -1,5 +1,12 @@
+# Site settings
 title: "My Serif-Powered Site"
 description: "Slick business site with Jekyll Serif"
-remote_theme: zerostaticthemes/jekyll-serif-theme    # pulls from https://github.com/zerostaticthemes/jekyll-serif-theme :contentReference[oaicite:1]{index=1}
+
+# Production URLs
+url: "https://speedboostco.github.io"    # your GitHub Pages domain
+baseurl: "/speedboost-seo-ai"            # the repo name, leading slash, no trailing slash
+
+# Theme
+remote_theme: zerostaticthemes/jekyll-serif-theme
 plugins:
   - jekyll-remote-theme
